@@ -22,10 +22,10 @@
 	<div id="home-section3">
 		<div class="container">
 			<div class="row">
-				<div class="col col-lg-7 col-lg-12">
+				<div class="col col-lg-7 col-md-12">
 					<img src="http://localhost/ronin/wp-content/uploads/2018/04/phones.png" style="margin-bottom: 40px;" />
 				</div>
-				<div class="col offset-lg-1 offset-lg-0 col-lg-4 col-lg-12 align-left">
+				<div class="col offset-lg-1 offset-md-0 col-lg-4 col-md-12 align-left">
 					<div class="highlight-bar"></div>
 					<p class="section-title section-title4">Utilizing your current IT investments, the Ronin Platform ties existing systems and infrastructure together.</p>
 					<p class="section-title section-title5">It takes the data you’re already collecting and puts the right data in the right hands, so action can be taken right now.</p>
