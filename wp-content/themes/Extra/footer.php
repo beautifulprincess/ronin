@@ -86,7 +86,7 @@
 
 	<div class="site-lightbox">
 		<div class="site-lightbox__lightbox">
-			<button class="site-lightbox__close btn btn--close">
+			<button class="site-lightbox__close btn btn--close" id="close-d63f8679-03fe-467a-91b0-019c07f834f7">
 				<svg id="plus" viewBox="0 0 29 29" width="100%" height="100%">
 					<title>Close</title>
 					<path d="M27 14.734a2.124 2.124 0 0 1-2.12 2.125h-8.492v8.021a2.124 2.124 0 1 1-4.251 0v-8.021H4.116a2.122 2.122 0 0 1 0-4.246h8.021V4.12a2.125 2.125 0 0 1 4.251 0v8.493h8.492A2.122 2.122 0 0 1 27 14.734z"></path>
@@ -94,35 +94,130 @@
 			</button>
 			<div class="site-lightbox__content">
 				<div class="hubspot-d63f8679-03fe-467a-91b0-019c07f834f7">
-					<form novalidate="" accept-charset="UTF-8" action="https://forms.hsforms.com/submissions/v3/public/submit/formsnext/multipart/3330234/d63f8679-03fe-467a-91b0-019c07f834f7" enctype="multipart/form-data" id="hsForm_d63f8679-03fe-467a-91b0-019c07f834f7" method="POST" class="hs-form stacked hs-form-private hs-form-d63f8679-03fe-467a-91b0-019c07f834f7_e931f0b1-2843-4474-ab27-a22a890df785" data-form-id="d63f8679-03fe-467a-91b0-019c07f834f7" data-portal-id="3330234" target="target_iframe_d63f8679-03fe-467a-91b0-019c07f834f7" data-reactid=".hbspt-forms-0">
-						<fieldset class="form-columns-2" data-reactid=".hbspt-forms-0.0:$0">
-							<div class="hs-richtext" data-reactid=".hbspt-forms-0.0:$0.0">
+					<form novalidate="" accept-charset="UTF-8" action="https://forms.hsforms.com/submissions/v3/public/submit/formsnext/multipart/3330234/d63f8679-03fe-467a-91b0-019c07f834f7" enctype="multipart/form-data" id="hsForm_d63f8679-03fe-467a-91b0-019c07f834f7" method="POST" class="hs-form stacked hs-form-private hs-form-d63f8679-03fe-467a-91b0-019c07f834f7_e931f0b1-2843-4474-ab27-a22a890df785" target="target_iframe_d63f8679-03fe-467a-91b0-019c07f834f7">
+						<fieldset class="form-columns-2">
+							<div class="hs-richtext">
 								Let’s get started! Contact us now to schedule a demo.
 							</div>
-							<div class="hs_firstname hs-firstname hs-fieldtype-text field hs-form-field" data-reactid=".hbspt-forms-0.0:$0.1:$firstname">
-								<label id="label-firstname-d63f8679-03fe-467a-91b0-019c07f834f7" class="" placeholder="Enter your First Name" for="firstname-d63f8679-03fe-467a-91b0-019c07f834f7" data-reactid=".hbspt-forms-0.0:$0.1:$firstname.0">
-									<span data-reactid=".hbspt-forms-0.0:$0.1:$firstname.0.0">First Name</span>
-									<span class="hs-form-required" data-reactid=".hbspt-forms-0.0:$0.1:$firstname.0.1">*</span>
+							<div class="hs_firstname hs-firstname hs-fieldtype-text field hs-form-field">
+								<label>
+									<span>First Name</span>
+									<span class="hs-form-required">*</span>
 								</label>
-								<legend class="hs-field-desc" style="display:none;" data-reactid=".hbspt-forms-0.0:$0.1:$firstname.1"></legend>
-								<div class="input" data-reactid=".hbspt-forms-0.0:$0.1:$firstname.$firstname">
-									<input id="firstname-d63f8679-03fe-467a-91b0-019c07f834f7" class="hs-input invalid error" type="text" name="firstname" required="" value="" placeholder="Enter" autocomplete="given-name" data-reactid=".hbspt-forms-0.0:$0.1:$firstname.$firstname.0">
+								<div class="input">
+									<input id="firstname-d63f8679-03fe-467a-91b0-019c07f834f7" class="hs-input jform-input" type="text" name="firstname" required="" value="" placeholder="Enter" autocomplete="given-name">
 								</div>
-								<ul class="hs-error-msgs inputs-list" style="display:block;" role="alert" data-reactid=".hbspt-forms-0.0:$0.1:$firstname.3">
-									<li data-reactid=".hbspt-forms-0.0:$0.1:$firstname.3.$0">
-										<label data-reactid=".hbspt-forms-0.0:$0.1:$firstname.3.$0.0">
+								<ul class="hs-error-msgs inputs-list" role="alert" for="firstname-d63f8679-03fe-467a-91b0-019c07f834f7">
+									<li>
+										<label>
 											Please complete this required field.
 										</label>
 									</li>
 								</ul>
 							</div>
-							<div class="hs_lastname hs-lastname hs-fieldtype-text field hs-form-field" data-reactid=".hbspt-forms-0.0:$0.1:$lastname">
-								<label id="label-lastname-d63f8679-03fe-467a-91b0-019c07f834f7" class="" placeholder="Enter your Last Name" for="lastname-d63f8679-03fe-467a-91b0-019c07f834f7" data-reactid=".hbspt-forms-0.0:$0.1:$lastname.0">
-									<span data-reactid=".hbspt-forms-0.0:$0.1:$lastname.0.0">Last Name</span>
-									<span class="hs-form-required" data-reactid=".hbspt-forms-0.0:$0.1:$lastname.0.1">*</span>
+							<div class="hs_lastname hs-lastname hs-fieldtype-text field hs-form-field">
+								<label>
+									<span>Last Name</span>
+									<span class="hs-form-required">*</span>
 								</label>
-								<legend class="hs-field-desc" style="display:none;" data-reactid=".hbspt-forms-0.0:$0.1:$lastname.1"></legend>
-								<div class="input" data-reactid=".hbspt-forms-0.0:$0.1:$lastname.$lastname"><input id="lastname-d63f8679-03fe-467a-91b0-019c07f834f7" class="hs-input invalid error" type="text" name="lastname" required="" value="" placeholder="Enter" autocomplete="family-name" data-reactid=".hbspt-forms-0.0:$0.1:$lastname.$lastname.0"></div><ul class="hs-error-msgs inputs-list" style="display:block;" role="alert" data-reactid=".hbspt-forms-0.0:$0.1:$lastname.3"><li data-reactid=".hbspt-forms-0.0:$0.1:$lastname.3.$0"><label data-reactid=".hbspt-forms-0.0:$0.1:$lastname.3.$0.0">Please complete this required field.</label></li></ul></div></fieldset><fieldset class="form-columns-2" data-reactid=".hbspt-forms-0.0:$1"><div class="hs_email hs-email hs-fieldtype-text field hs-form-field" data-reactid=".hbspt-forms-0.0:$1.1:$email"><label id="label-email-d63f8679-03fe-467a-91b0-019c07f834f7" class="" placeholder="Enter your Email" for="email-d63f8679-03fe-467a-91b0-019c07f834f7" data-reactid=".hbspt-forms-0.0:$1.1:$email.0"><span data-reactid=".hbspt-forms-0.0:$1.1:$email.0.0">Email</span><span class="hs-form-required" data-reactid=".hbspt-forms-0.0:$1.1:$email.0.1">*</span></label><legend class="hs-field-desc" style="display:none;" data-reactid=".hbspt-forms-0.0:$1.1:$email.1"></legend><div class="input" data-reactid=".hbspt-forms-0.0:$1.1:$email.$email"><input id="email-d63f8679-03fe-467a-91b0-019c07f834f7" class="hs-input invalid error" type="email" name="email" required="" placeholder="you@youraddress.com" value="" autocomplete="email" data-reactid=".hbspt-forms-0.0:$1.1:$email.$email.0"></div><ul class="hs-error-msgs inputs-list" style="display:block;" role="alert" data-reactid=".hbspt-forms-0.0:$1.1:$email.3"><li data-reactid=".hbspt-forms-0.0:$1.1:$email.3.$0"><label data-reactid=".hbspt-forms-0.0:$1.1:$email.3.$0.0">Please complete this required field.</label></li></ul></div><div class="hs_phone hs-phone hs-fieldtype-text field hs-form-field" data-reactid=".hbspt-forms-0.0:$1.1:$phone"><label id="label-phone-d63f8679-03fe-467a-91b0-019c07f834f7" class="" placeholder="Enter your Phone Number" for="phone-d63f8679-03fe-467a-91b0-019c07f834f7" data-reactid=".hbspt-forms-0.0:$1.1:$phone.0"><span data-reactid=".hbspt-forms-0.0:$1.1:$phone.0.0">Phone Number</span><span class="hs-form-required" data-reactid=".hbspt-forms-0.0:$1.1:$phone.0.1">*</span></label><legend class="hs-field-desc" style="display:none;" data-reactid=".hbspt-forms-0.0:$1.1:$phone.1"></legend><div class="input" data-reactid=".hbspt-forms-0.0:$1.1:$phone.$phone"><input id="phone-d63f8679-03fe-467a-91b0-019c07f834f7" class="hs-input invalid error" type="tel" name="phone" required="" value="" placeholder="(555) 555-1234" autocomplete="tel" data-reactid=".hbspt-forms-0.0:$1.1:$phone.$phone.0"></div><ul class="hs-error-msgs inputs-list" style="display:block;" role="alert" data-reactid=".hbspt-forms-0.0:$1.1:$phone.3"><li data-reactid=".hbspt-forms-0.0:$1.1:$phone.3.$0"><label data-reactid=".hbspt-forms-0.0:$1.1:$phone.3.$0.0">Please complete this required field.</label></li></ul></div></fieldset><fieldset class="form-columns-2" data-reactid=".hbspt-forms-0.0:$2"><div class="hs_jobtitle hs-jobtitle hs-fieldtype-text field hs-form-field" data-reactid=".hbspt-forms-0.0:$2.1:$jobtitle"><label id="label-jobtitle-d63f8679-03fe-467a-91b0-019c07f834f7" class="" placeholder="Enter your Job Title" for="jobtitle-d63f8679-03fe-467a-91b0-019c07f834f7" data-reactid=".hbspt-forms-0.0:$2.1:$jobtitle.0"><span data-reactid=".hbspt-forms-0.0:$2.1:$jobtitle.0.0">Job Title</span><span class="hs-form-required" data-reactid=".hbspt-forms-0.0:$2.1:$jobtitle.0.1">*</span></label><legend class="hs-field-desc" style="display:none;" data-reactid=".hbspt-forms-0.0:$2.1:$jobtitle.1"></legend><div class="input" data-reactid=".hbspt-forms-0.0:$2.1:$jobtitle.$jobtitle"><input id="jobtitle-d63f8679-03fe-467a-91b0-019c07f834f7" class="hs-input invalid error" type="text" name="jobtitle" required="" value="" placeholder="Enter" autocomplete="organization-title" data-reactid=".hbspt-forms-0.0:$2.1:$jobtitle.$jobtitle.0"></div><ul class="hs-error-msgs inputs-list" style="display:block;" role="alert" data-reactid=".hbspt-forms-0.0:$2.1:$jobtitle.3"><li data-reactid=".hbspt-forms-0.0:$2.1:$jobtitle.3.$0"><label data-reactid=".hbspt-forms-0.0:$2.1:$jobtitle.3.$0.0">Please complete this required field.</label></li></ul></div><div class="hs_industry hs-industry hs-fieldtype-select field hs-form-field" data-reactid=".hbspt-forms-0.0:$2.1:$industry"><label id="label-industry-d63f8679-03fe-467a-91b0-019c07f834f7" class="" placeholder="Enter your Industry" for="industry-d63f8679-03fe-467a-91b0-019c07f834f7" data-reactid=".hbspt-forms-0.0:$2.1:$industry.0"><span data-reactid=".hbspt-forms-0.0:$2.1:$industry.0.0">Industry</span><span class="hs-form-required" data-reactid=".hbspt-forms-0.0:$2.1:$industry.0.1">*</span></label><legend class="hs-field-desc" style="display:none;" data-reactid=".hbspt-forms-0.0:$2.1:$industry.1"></legend><div class="input" data-reactid=".hbspt-forms-0.0:$2.1:$industry.$industry"><select id="industry-d63f8679-03fe-467a-91b0-019c07f834f7" required="" class="hs-input" name="industry" data-reactid=".hbspt-forms-0.0:$2.1:$industry.$industry.0"><option value="" disabled="" selected="" data-reactid=".hbspt-forms-0.0:$2.1:$industry.$industry.0.0">- Please Select -</option><option value="Transportation" data-reactid=".hbspt-forms-0.0:$2.1:$industry.$industry.0.1:$Transportation">Transportation</option><option value="Utilities" data-reactid=".hbspt-forms-0.0:$2.1:$industry.$industry.0.1:$Utilities">Utilities</option><option value="Public Safety" data-reactid=".hbspt-forms-0.0:$2.1:$industry.$industry.0.1:$Public Safety">Public Safety</option><option value="Government" data-reactid=".hbspt-forms-0.0:$2.1:$industry.$industry.0.1:$Government">Government</option><option value="Other" data-reactid=".hbspt-forms-0.0:$2.1:$industry.$industry.0.1:$Other">Other</option></select></div></div></fieldset><div class="hs_submit hs-submit" data-reactid=".hbspt-forms-0.3"><div class="hs-field-desc" style="display:none;" data-reactid=".hbspt-forms-0.3.0"></div><div class="actions" data-reactid=".hbspt-forms-0.3.1"><input type="submit" value="Request a Demo " class="hs-button primary large" data-reactid=".hbspt-forms-0.3.1.0"></div></div><input name="hs_context" type="hidden" value="{&quot;rumScriptExecuteTime&quot;:2417.699999990873,&quot;rumServiceResponseTime&quot;:21068074.4,&quot;rumFormRenderTime&quot;:726.8999999947846,&quot;rumTotalRenderTime&quot;:21068083.09999999,&quot;rumTotalRequestTime&quot;:717.1000000089407,&quot;pageUrl&quot;:&quot;http://www.coolfiresolutions.com/&quot;,&quot;pageTitle&quot;:&quot;Coolfire Solutions | The Ronin Platform&quot;,&quot;source&quot;:&quot;FormsNext-static-1.884&quot;,&quot;isHostedOnHubspot&quot;:false,&quot;timestamp&quot;:1525023103751,&quot;userAgent&quot;:&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36&quot;,&quot;referrer&quot;:&quot;http://www.coolfiresolutions.com/platform&quot;,&quot;hutk&quot;:&quot;f94510e1ae7db07bf898c2db921643a9&quot;,&quot;originalEmbedContext&quot;:{&quot;portalId&quot;:&quot;3330234&quot;,&quot;formId&quot;:&quot;d63f8679-03fe-467a-91b0-019c07f834f7&quot;,&quot;target&quot;:&quot;.hubspot-d63f8679-03fe-467a-91b0-019c07f834f7&quot;,&quot;css&quot;:&quot;&quot;,&quot;cssRequired&quot;:&quot;&quot;,&quot;inlineMessage&quot;:true},&quot;recentFieldsCookie&quot;:{},&quot;boolCheckBoxFields&quot;:&quot;&quot;,&quot;dateFields&quot;:&quot;&quot;,&quot;smartFields&quot;:{},&quot;urlParams&quot;:{},&quot;formValidity&quot;:{&quot;industry&quot;:{&quot;valid&quot;:true,&quot;errors&quot;:[],&quot;errorTypes&quot;:[]},&quot;jobtitle&quot;:{&quot;valid&quot;:false,&quot;errors&quot;:[&quot;Please complete this required field.&quot;],&quot;errorTypes&quot;:[&quot;REQUIRED_FIELD&quot;]},&quot;phone&quot;:{&quot;valid&quot;:false,&quot;errors&quot;:[&quot;Please complete this required field.&quot;],&quot;errorTypes&quot;:[&quot;REQUIRED_FIELD&quot;]},&quot;email&quot;:{&quot;valid&quot;:false,&quot;errors&quot;:[&quot;Please complete this required field.&quot;],&quot;errorTypes&quot;:[&quot;REQUIRED_FIELD&quot;]},&quot;firstname&quot;:{&quot;valid&quot;:false,&quot;errors&quot;:[&quot;Please complete this required field.&quot;],&quot;errorTypes&quot;:[&quot;REQUIRED_FIELD&quot;]},&quot;lastname&quot;:{&quot;valid&quot;:false,&quot;errors&quot;:[&quot;Please complete this required field.&quot;],&quot;errorTypes&quot;:[&quot;REQUIRED_FIELD&quot;]}},&quot;formTarget&quot;:&quot;.hubspot-d63f8679-03fe-467a-91b0-019c07f834f7&quot;,&quot;correlationId&quot;:&quot;0e82ef1d-0cde-4c91-8724-2b5131753186&quot;,&quot;disableCookieSubmission&quot;:false,&quot;usingInvisibleRecaptcha&quot;:false,&quot;isFallback&quot;:false}" data-reactid=".hbspt-forms-0.4"><iframe name="target_iframe_d63f8679-03fe-467a-91b0-019c07f834f7" style="display:none;" data-reactid=".hbspt-forms-0.5"></iframe></form></div></div></div></div>
+								<div class="input">
+									<input id="lastname-d63f8679-03fe-467a-91b0-019c07f834f7" class="hs-input jform-input" type="text" name="lastname" required="" value="" placeholder="Enter" autocomplete="family-name">
+								</div>
+								<ul class="hs-error-msgs inputs-list" role="alert" for="lastname-d63f8679-03fe-467a-91b0-019c07f834f7">
+									<li>
+										<label>
+											Please complete this required field.
+										</label>
+									</li>
+								</ul>
+							</div>
+						</fieldset>
+						<fieldset class="form-columns-2">
+							<div class="hs_email hs-email hs-fieldtype-text field hs-form-field">
+								<label>
+									<span>Email</span>
+									<span class="hs-form-required">*</span>
+								</label>
+								<div class="input">
+									<input id="email-d63f8679-03fe-467a-91b0-019c07f834f7" class="hs-input jform-input" type="email" name="email" required="" placeholder="you@youraddress.com" value="" autocomplete="email">
+								</div>
+								<ul class="hs-error-msgs inputs-list" role="alert" for="email-d63f8679-03fe-467a-91b0-019c07f834f7">
+									<li>
+										<label>Please complete this required field.</label>
+									</li>
+								</ul>
+							</div>
+							<div class="hs_phone hs-phone hs-fieldtype-text field hs-form-field">
+								<label>
+									<span>Phone Number</span>
+									<span class="hs-form-required">*</span>
+								</label>
+								<div class="input">
+									<input id="phone-d63f8679-03fe-467a-91b0-019c07f834f7" class="hs-input jform-input" type="tel" name="phone" required="" value="" placeholder="(555) 555-1234" autocomplete="tel">
+								</div>
+								<ul class="hs-error-msgs inputs-list" role="alert" for="phone-d63f8679-03fe-467a-91b0-019c07f834f7">
+									<li>
+										<label>Please complete this required field.</label>
+									</li>
+								</ul>
+							</div>
+						</fieldset>
+						<fieldset class="form-columns-2">
+							<div class="hs_jobtitle hs-jobtitle hs-fieldtype-text field hs-form-field">
+								<label>
+									<span>Job Title</span>
+									<span class="hs-form-required">*</span>
+								</label>
+								<div class="input">
+									<input id="jobtitle-d63f8679-03fe-467a-91b0-019c07f834f7" class="hs-input jform-input" type="text" name="jobtitle" required="" value="" placeholder="Enter" autocomplete="organization-title">
+								</div>
+								<ul class="hs-error-msgs inputs-list" role="alert" for="jobtitle-d63f8679-03fe-467a-91b0-019c07f834f7">
+									<li>
+										<label>Please complete this required field.</label>
+									</li>
+								</ul>
+							</div>
+							<div class="hs_industry hs-industry hs-fieldtype-select field hs-form-field">
+								<label>
+									<span>Industry</span>
+									<span class="hs-form-required">*</span>
+								</label>
+								<div class="input">
+									<select id="industry-d63f8679-03fe-467a-91b0-019c07f834f7" required="" class="hs-input jform-input" name="industry">
+										<option value="" disabled="" selected="">- Please Select -</option>
+										<option value="Transportation">Transportation</option>
+										<option value="Utilities">Utilities</option>
+										<option value="Public Safety">Public Safety</option>
+										<option value="Government">Government</option>
+										<option value="Other">Other</option>
+									</select>
+								</div>
+								<ul class="hs-error-msgs inputs-list" role="alert" for="industry-d63f8679-03fe-467a-91b0-019c07f834f7">
+									<li>
+										<label>Please select an option from the dropdown menu.</label>
+									</li>
+								</ul>
+							</div>
+						</fieldset>
+						<div class="hs_submit hs-submit" data-reactid=".hbspt-forms-0.3">
+							<div class="actions" data-reactid=".hbspt-forms-0.3.1">
+								<input type="button" value="Request a Demo " class="hs-button primary large jform-submit" id="submit-d63f8679-03fe-467a-91b0-019c07f834f7">
+							</div>
+						</div>
+						<input name="hs_context" type="hidden" value="{&quot;rumScriptExecuteTime&quot;:2417.699999990873,&quot;rumServiceResponseTime&quot;:21068074.4,&quot;rumFormRenderTime&quot;:726.8999999947846,&quot;rumTotalRenderTime&quot;:21068083.09999999,&quot;rumTotalRequestTime&quot;:717.1000000089407,&quot;pageUrl&quot;:&quot;http://www.coolfiresolutions.com/&quot;,&quot;pageTitle&quot;:&quot;Coolfire Solutions | The Ronin Platform&quot;,&quot;source&quot;:&quot;FormsNext-static-1.884&quot;,&quot;isHostedOnHubspot&quot;:false,&quot;timestamp&quot;:1525023103751,&quot;userAgent&quot;:&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36&quot;,&quot;referrer&quot;:&quot;http://www.coolfiresolutions.com/platform&quot;,&quot;hutk&quot;:&quot;f94510e1ae7db07bf898c2db921643a9&quot;,&quot;originalEmbedContext&quot;:{&quot;portalId&quot;:&quot;3330234&quot;,&quot;formId&quot;:&quot;d63f8679-03fe-467a-91b0-019c07f834f7&quot;,&quot;target&quot;:&quot;.hubspot-d63f8679-03fe-467a-91b0-019c07f834f7&quot;,&quot;css&quot;:&quot;&quot;,&quot;cssRequired&quot;:&quot;&quot;,&quot;inlineMessage&quot;:true},&quot;recentFieldsCookie&quot;:{},&quot;boolCheckBoxFields&quot;:&quot;&quot;,&quot;dateFields&quot;:&quot;&quot;,&quot;smartFields&quot;:{},&quot;urlParams&quot;:{},&quot;formValidity&quot;:{&quot;industry&quot;:{&quot;valid&quot;:true,&quot;errors&quot;:[],&quot;errorTypes&quot;:[]},&quot;jobtitle&quot;:{&quot;valid&quot;:false,&quot;errors&quot;:[&quot;Please complete this required field.&quot;],&quot;errorTypes&quot;:[&quot;REQUIRED_FIELD&quot;]},&quot;phone&quot;:{&quot;valid&quot;:false,&quot;errors&quot;:[&quot;Please complete this required field.&quot;],&quot;errorTypes&quot;:[&quot;REQUIRED_FIELD&quot;]},&quot;email&quot;:{&quot;valid&quot;:false,&quot;errors&quot;:[&quot;Please complete this required field.&quot;],&quot;errorTypes&quot;:[&quot;REQUIRED_FIELD&quot;]},&quot;firstname&quot;:{&quot;valid&quot;:false,&quot;errors&quot;:[&quot;Please complete this required field.&quot;],&quot;errorTypes&quot;:[&quot;REQUIRED_FIELD&quot;]},&quot;lastname&quot;:{&quot;valid&quot;:false,&quot;errors&quot;:[&quot;Please complete this required field.&quot;],&quot;errorTypes&quot;:[&quot;REQUIRED_FIELD&quot;]}},&quot;formTarget&quot;:&quot;.hubspot-d63f8679-03fe-467a-91b0-019c07f834f7&quot;,&quot;correlationId&quot;:&quot;0e82ef1d-0cde-4c91-8724-2b5131753186&quot;,&quot;disableCookieSubmission&quot;:false,&quot;usingInvisibleRecaptcha&quot;:false,&quot;isFallback&quot;:false}">
+						<iframe name="target_iframe_d63f8679-03fe-467a-91b0-019c07f834f7" style="display:none;"></iframe>
+					</form>
+					<div class="submitted-message" id="msgForm_d63f8679-03fe-467a-91b0-019c07f834f7">
+						<div class="wysiwyg wysiwyg--xsmall wysiwyg--metal">
+							<h4>Thank you!</h4>
+							<p>A representative will be in touch with you shortly. We look forward to showing you how Ronin can help your business.</p>
+							<p>Click anywhere on this screen to close.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 <style>
 .jftag-download-whitepaper button{
     -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
@@ -188,6 +283,9 @@
 		});
 		$(".site-lightbox__close").click(function(){
 			$(".site-lightbox").hide();
+			// var frmid = $(this).attr("id").substring($(this).attr("id").indexOf('-') + 1, $(this).attr("id").length);
+			// $("#hsForm_" + frmid).show();
+			// $("#msgForm_" + frmid).hide();
 		});
 		$(".jftag-download-whitepaper").each(function(){
 			var pid = $(this).attr("pid");
@@ -195,6 +293,35 @@
 			var file = $(this).attr("pfile");
 			var html = '<button><span>' + title + '</span><span>Download Resource</span><svg id="download" viewBox="0 0 37 39" width="100%" height="100%"><title>Download</title><path d="M35 24.46v10.591a1.93 1.93 0 0 1-1.92 1.939H3.92A1.93 1.93 0 0 1 2 35.051V24.46a1.92 1.92 0 0 1 3.84 0v8.64h25.32v-8.64a1.92 1.92 0 1 1 3.84-.055v.055zM17.13 26.9a1.909 1.909 0 0 0 2.698.042l.042-.042 7.659-7.92a1.971 1.971 0 0 0-.029-2.75 1.907 1.907 0 0 0-2.698-.002l-.022.021-4.359 4.521V3.93a1.92 1.92 0 1 0-3.84 0v16.841l-4.36-4.521a1.908 1.908 0 0 0-2.721-.02 1.972 1.972 0 0 0-.02 2.75l7.65 7.92z"></path></svg></button>';
 			$(this).append(html);
+		});
+
+		$(".jform-input").blur(function(){
+			if (!$(this).val())
+			{
+				$(".hs-error-msgs[for=" + $(this).attr("id") + "]").show();
+			} else {
+				$(".hs-error-msgs[for=" + $(this).attr("id") + "]").hide();
+			}
+		});
+		$(".jform-submit").click(function(){
+			var frmid = $(this).attr("id").substring($(this).attr("id").indexOf('-') + 1, $(this).attr("id").length);
+			var ecnt = 0;
+			$(".jform-input").each(function(){
+				var frmidOfItem = $(this).attr("id").substring($(this).attr("id").indexOf('-') + 1, $(this).attr("id").length);
+				if (frmidOfItem != frmid) return;
+				if (!$(this).val())
+				{
+					ecnt++;
+					$(".hs-error-msgs[for=" + $(this).attr("id") + "]").show();
+				} else {
+					$(".hs-error-msgs[for=" + $(this).attr("id") + "]").hide();
+				}
+			});
+			if (ecnt == 0) {
+				$("#hsForm_" + frmid).submit();
+				$("#hsForm_" + frmid).hide();
+				$("#msgForm_" + frmid).show();
+			}
 		});
 	});
 	</script>
